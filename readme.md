@@ -1,6 +1,7 @@
 
 # kong-plugin-jwt-claims-headers
-
+# Build  
+luarocks make --pack-binary-rock  
 Add unencrypted, base64-decoded claims from a JWT payload as request headers to
 the upstream service.
 
